@@ -86,6 +86,50 @@ public class Main {
 //        }
 //        System.out.println(Arrays.toString(mass));
 
+        // ------task-8-------//
+//        int[] mass = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//        System.out.println(Arrays.toString(mass));
+//        for (int i = 0; i < mass.length / 2; i++) {
+//            int tmp = mass[i];
+//            mass[i] = mass[mass.length - i - 1];
+//            mass[mass.length - i - 1] =  tmp;
+//        }
+//        System.out.println(Arrays.toString(mass));
+
+        // ------task-9-------//
+//        int[] mass_1 = {1, 2, 3, 4, 5};
+//        int[] mass_2 = {6, 7, 8, 9, 0};
+//        int x1 = 0;
+//        int x2 = 0;
+//        int x3 = 0;
+//        int x4 = 0;
+//        int x5 = 0;
+//        int[] mass_copy = {x1, x2, x3, x4, x5};
+//        for(int i = 0; i < mass_1.length; i ++) {
+//            mass_copy[i] = mass_1[i];
+//            mass_1[i] = mass_2[i];
+//            mass_2[i] = mass_copy[i];
+//        }
+//        System.out.println(Arrays.toString(mass_1));
+//        System.out.println(Arrays.toString(mass_2));
+
+        // ------task-10-------//
+        int[] mass_1 = {1, 2, 3, 4, 5};
+        int[] mass_2 = {6, 7, 8, 9, 0};
+        int x1 = 0;
+        int x2 = 0;
+        int x3 = 0;
+        int x4 = 0;
+        int x5 = 0;
+        int[] mass_copy = {x1, x2, x3, x4, x5};
+        for(int i = 0; i < mass_1.length; i ++) {
+            mass_copy[i] = mass_1[i];
+            mass_1[i] = mass_2[i];
+            mass_2[i] = mass_copy[i];
+        }
+        System.out.println(Arrays.toString(mass_1));
+        System.out.println(Arrays.toString(mass_2));
+
     }
 
     public static void plus(int x, int y) {
